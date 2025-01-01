@@ -1,0 +1,166 @@
+*{box-sizing: border-box;}
+h2, h3, p{
+    margin: 0;
+}
+
+body{
+   
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.wrap{
+    
+    width: 1280px;
+    padding: 34px 0px 0px 0px;
+    margin: 0 auto;
+    background-color: #AEECFD;
+}
+
+main{
+    width: 1200px;
+    height: 382px;
+    color:  #71A2FD;
+    background-color: #aeecfd;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 700;
+    background-image: url(banner.jpg);
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+.main-title{
+    margin-top: 60px;
+    color: #71A2FD;
+    margin: 50px 58px 50px 50px;
+    font-size: 20px;
+}
+.title{
+    color: #71A2FD;
+  
+    font-family: Inter;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-left: 425px;
+}
+
+.company{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 14px;
+    background-color: #6DDAFF;
+    
+ 
+
+}
+
+iframe{
+    width: 1180px;
+    height: 550px;
+    margin-top: 27px;
+    margin-left: 45px;
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #6DDAFF;
+    margin-top: 33px;
+    padding-left: 10px;
+    
+    
+}
+
+.card-title{
+    color: #71A2FD;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+
+}
+
+.card-intro{
+    color: #71A2FD;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+}
+
+a{
+    color: #1B6AA3;
+    text-align: right;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+
+nav{
+    
+    margin-left: auto;
+    display: flex;
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+    border-radius: 10px;
+  
+}
+nav a:hover{
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.card{
+    transition: 0.2s ease-out;
+    width: 390px;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #FFF;
+    color:#71A2FD;
+    overflow:hidden;
+    transition: transform 0.3s ease;
+    border: 1px solid #ccc;
+
+    
+    
+    
+}
+
+.card:hover {
+    transform: scale(1.1);
+
+}
+
+
